@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #674baf url("../images/bg-mobile.svg") no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2.3rem;
+}
+
+header .logo {
+  width: 43%;
+}
+header .mock-up {
+  width: 100%;
+  padding: 3.5rem 0;
+}
+
+section {
+  text-align: center;
+  color: white;
+}
+section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+section p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: -0.01rem;
+  padding: 1rem 0 2.5rem 0;
+}
+section .button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: white;
+  color: #674baf;
+  border-radius: 25px;
+  padding: 0.7rem 4.5rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+section .button:hover {
+  background-color: #e882e8;
+  color: white;
+}
+section .social-media {
+  padding-top: 5rem;
+}
+section .social-media button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 0.4rem;
+  background-color: #674baf;
+  margin: 0 0.3rem;
+  transition: 0.3s;
+}
+section .social-media button i {
+  color: white;
+}
+section .social-media button:hover {
+  background-color: #e882e8;
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #674baf url("../images/bg-desktop.svg") no-repeat;
+    background-size: 100%;
+  }
+
+  .container {
+    flex-direction: row;
+    margin: 4rem 5rem;
+  }
+
+  header {
+    width: 170%;
+  }
+  header .logo {
+    width: 30%;
+    margin-bottom: 1.5rem;
+  }
+
+  section {
+    text-align: left;
+    margin: 12.5rem 0 0 2rem;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+}
+.social-media {
+  padding-top: 5rem;
+  text-align: right;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
