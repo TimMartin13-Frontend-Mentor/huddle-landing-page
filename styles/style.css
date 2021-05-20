@@ -55,59 +55,81 @@ section .button:hover {
   background-color: #e882e8;
   color: white;
 }
-section .social-media {
-  padding-top: 5rem;
+
+.social-media {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
-section .social-media button {
+.social-media button {
   width: 2rem;
   height: 2rem;
   border-radius: 50px;
   border: 2px solid white;
   padding: 0.4rem;
-  background-color: #674baf;
+  background-color: transparent;
   margin: 0 0.3rem;
   transition: 0.3s;
 }
-section .social-media button i {
+.social-media button i {
   color: white;
 }
-section .social-media button:hover {
+.social-media button:hover {
   background-color: #e882e8;
   color: white;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   body {
     background: #674baf url("../images/bg-desktop.svg") no-repeat;
-    background-size: 100%;
+    height: 100vh;
   }
 
   .container {
     flex-direction: row;
-    margin: 4rem 5rem;
+    margin: 3.5rem 4.6rem 0 4.6rem;
   }
 
   header {
-    width: 170%;
+    flex-basis: 2000px;
   }
   header .logo {
     width: 30%;
     margin-bottom: 1.5rem;
   }
+  header .mock-up {
+    padding: 3.5rem 0 0;
+  }
 
   section {
     text-align: left;
-    margin: 12.5rem 0 0 2rem;
+    margin: 14% 2.5% 0% 4%;
+    position: relative;
   }
   section h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  section p {
+    letter-spacing: 0.01rem;
+    line-height: 1.7rem;
+  }
+  section .button {
+    padding: 1rem 4rem;
+    text-decoration: none;
+  }
+
+  .social-media {
+    justify-content: flex-end;
+    margin: -3rem 6rem 3rem 4rem;
+  }
+  .social-media i {
+    font-size: 1.1rem;
+  }
+  .social-media button {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
-.social-media {
-  padding-top: 5rem;
-  text-align: right;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
