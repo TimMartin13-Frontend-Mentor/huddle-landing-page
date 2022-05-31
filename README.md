@@ -37,7 +37,7 @@ After I got that looking nice, I moved on to the desktop layout.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Github pages](https://timmartin13.github.io/huddle-landing-page/)
+- Live Site URL: [Github pages](https://timmartin13-frontend-mentor.github.io/huddle-landing-page/)
 
 ## My process
 
